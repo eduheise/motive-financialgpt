@@ -1,13 +1,12 @@
 # FinancialGPT Repository
 
-This repository houses a chat application with a LLM capable of extracting data from a SQL database and answer with the
-data from clients, such as assets, profile, etc.
+This repository houses a chat application with a LLM capable of extracting data from a SQL database and answer with it.
 
 ## Repository Structure
 
-- `financialgpt/`: Core Python package for financial data processing.
-- `scripts/`: Utility scripts for data manipulation and processing.
-- `tests/`: Unit tests to validate functionality and ensure code robustness.
+- `financialgpt/`: The core Python package, with the functions for financial data processing.
+- `scripts/`: Utility scripts to operate with `financialgpt`.
+- `tests/`: Unit tests.
 - `data/`: Data used to process as the base sample to run build the SQL.
 
 ## Usage
