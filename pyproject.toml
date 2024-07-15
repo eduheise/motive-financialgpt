@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "financialgpt"
+version = "0.1.0"
+description = ""
+authors = ["Eduardo Heise <eduardo.heise@andela.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+langchain = "^0.2.7"
+streamlit = "^1.36.0"
+pandas = "^2.2.2"
+psycopg2-binary = "^2.9.9"
+black = "^24.4.2"
+langchain-community = "^0.2.7"
+langchain-openai = "^0.1.16"
+python-dotenv = "^1.0.1"
+pytest = "^8.2.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
