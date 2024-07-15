@@ -1,7 +1,7 @@
 # FinancialGPT Repository
 
-This repository houses tools and scripts designed for financial data processing and analysis using Python. It includes
-core functionalities for modeling financial data and utility scripts for various data operations.
+This repository houses a chat application with a LLM capable of extracting data from a SQL database and answer with the
+data from clients, such as assets, profile, etc.
 
 ## Repository Structure
 
